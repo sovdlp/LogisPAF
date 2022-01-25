@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LogisPAF</string>
+    <string name="logo_description">Logo de la aplicación</string>
+    <string name="delivery">Ingresa el # de REMISIÓN</string>
+    <string name="search">BUSCAR</string>
+    <string name="search_results">RESULTADOS BUSQUEDA</string>
+    <string name="back">REGRESAR</string>
+
+
+</resources>
