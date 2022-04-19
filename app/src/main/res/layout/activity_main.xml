@@ -9,24 +9,27 @@
     <ImageView
         android:id="@+id/app_logo"
         android:layout_width="300dp"
-        android:layout_height="148dp"
+        android:layout_height="218dp"
         android:layout_gravity="center"
+        android:layout_weight="1"
         android:contentDescription="@string/logo_description"
+        android:scaleType="fitCenter"
         android:src="@mipmap/paf_logo"
         tools:ignore="ImageContrastCheck" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="217dp"
+        android:layout_centerInParent="true"
+        android:layout_weight="1"
         android:capitalize="characters"
-        android:contentDescription="Nombre de la aplicacion"
-        android:gravity="center"
+        android:gravity="center|top"
         android:text="@string/app_pafsas"
+        android:textColor="@color/black"
         android:textSize="28sp"
         android:textStyle="bold"
         android:visibility="visible"
-        tools:visibility="visible"
-        android:textColor="@color/black"/>
+        tools:visibility="visible" />
 
 </LinearLayout>
